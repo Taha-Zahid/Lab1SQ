@@ -88,7 +88,13 @@ public class Binary
 		return result;
 		
 	}
-	
+	/**
+	* Performs the OR operation on two Binary numbers
+	*
+	* @param num1 The first binary number
+	* @param num2 The second binary number
+	* @return A new binary object with a value of <i>num1 OR num2</i>.
+	*/
 	public static Binary or(Binary num1, Binary num2) {
         int maxLength = Math.max(num1.number.length(), num2.number.length());
         String padded1 = String.format("%" + maxLength + "s", num1.number).replace(' ', '0');
@@ -101,7 +107,13 @@ public class Binary
         }
         return new Binary(result.toString());
     }
-
+	/**
+	* Performs the AND operation on two Binary numbers
+	*
+	* @param num1 The first binary number
+	* @param num2 The second binary number
+	* @return A new binary object with a value of <i>num1 AND num2</i>.
+	*/
     public static Binary and(Binary num1, Binary num2) {
         int maxLength = Math.max(num1.number.length(), num2.number.length());
         String padded1 = String.format("%" + maxLength + "s", num1.number).replace(' ', '0');
@@ -114,7 +126,13 @@ public class Binary
         }
         return new Binary(result.toString());
     }
-
+    /**
+	* Performs the MULTIPLY operation on two Binary numbers
+	*
+	* @param num1 The first binary number
+	* @param num2 The second binary number
+	* @return A new binary object with a value of <i>num1 * num2</i>.
+	*/
     public static Binary multiply(Binary num1, Binary num2) {
         Binary result = new Binary("0");
         for (int i = num2.number.length() - 1, shift = 0; i >= 0; i--, shift++) {
