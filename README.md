@@ -22,22 +22,3 @@ This project is a Java implementation of a `Binary` class that provides basic bi
 ## **Directory Structure**
 
 ![treedirect](https://github.com/user-attachments/assets/9cd4818a-ddb6-44e1-9d92-43a5f44fba60)
-
-
-
-
----
-
-## **Getting Started**
-
-### **Prerequisites**
-
-- Java Development Kit (JDK) 11 or higher.
-- Maven or another build tool (optional for managing dependencies).
-
-### **Running the Project**
-
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
