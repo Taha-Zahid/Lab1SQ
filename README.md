@@ -21,7 +21,22 @@ This project is a Java implementation of a `Binary` class that provides basic bi
 
 ## **Directory Structure**
 
-. ├── src │ └── com │ └── ontariotechu │ └── sofe3980U │ ├── Binary.java # Binary class implementation │ └── BinaryTest.java # Test cases for Binary class ├── doc # Javadoc-generated documentation ├── .gitignore # Git ignore file └── README.md # Project description
+src/
+├── main/
+│   └── java/
+│       └── com/ontariotechu/sofe3980U/
+│           ├── Binary.java       # Binary class implementation
+│           └── App.java          # Main application entry point
+├── test/
+│   └── java/
+│       └── com/ontariotechu/sofe3980U/
+│           └── BinaryTest.java   # Test cases for Binary class
+|           └── AppTest.java      # Test case for App class
+├── target/                        # Build output (excluded in .gitignore)
+├── pom.xml                        # Maven project configuration file
+├── .gitignore                     # Git ignore file
+└── README.md                      # Project description
+
 
 
 ---
